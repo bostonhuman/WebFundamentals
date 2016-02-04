@@ -61,7 +61,7 @@ MIME types have more or less specific values, combining container and codecs. Fo
 * video/webm;codecs=vp8
 * video/webm;codecs=vp9
 
-Use the static method `MediaRecoder.isTypeSupported()` to check if a MIME type is supported, for example when you instantiate MediaRecorder:
+Use the static method `MediaRecorder.isTypeSupported()` to check if a MIME type is supported, for example when you instantiate MediaRecorder:
 
 {% highlight javascript %}
 var options;
